@@ -58,7 +58,7 @@ Bonus:
 1. Clone the Repository
 
        git clone https://github.com/Balajibalu19/Ajackus-Dashboard.git
-       cd user-management-dashboard
+       cd user-management
 2. Install Dependencies
 
          npm install
