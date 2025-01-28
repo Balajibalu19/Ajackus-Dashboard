@@ -55,21 +55,69 @@ Bonus:
 
 2.NPM/Yarn: Package manager for installing dependencies.
 ## Steps
-1.Clone the Repository
+1. Clone the Repository
 
-    git clone <repository-url>
-    cd user-management-dashboard
-Install Dependencies
+       git clone https://github.com/Balajibalu19/Ajackus-Dashboard.git
+       cd user-management-dashboard
+2. Install Dependencies
 
-bash
-Copy
-Edit
-npm install
-Run the Application
+         npm install
+3. Run the Application
 
-bash
-Copy
-Edit
-npm start
+         npm start
+
 Open the Application Open http://localhost:3000 in your browser to view the app.
 
+# Folder Structure
+
+      src/
+      ├── components/
+      │   ├── UserCard.jsx
+      │   ├── UserForm.jsx
+      │   ├── Pagination.jsx
+      ├── pages/
+      │   ├── UserList.jsx
+      ├── utils/
+      │   ├── api.js
+      ├── App.js
+      ├── index.css
+      ├── main.jsx
+
+# Functionality
+## View Users
+1.Fetches user data from the /users endpoint of the JSONPlaceholder API.
+
+2.Displays details like ID, First Name, Last Name, Email, and Department in a table format.
+## Add User
+1.Displays a form for user input.
+
+2.Validates user inputs (e.g., email format, required fields).
+
+3.Sends a POST request to the API to simulate adding a new user.
+## Edit User
+1.Fetches the current data for a user.
+
+2.Displays an editable form with pre-filled user details.
+
+3.Sends a PUT request to update the user information.
+## Delete User
+1.Sends a DELETE request to remove the user.
+
+2.Displays a confirmation dialog before deletion. 
+
+# Error Handling
+1.API Failures: Displays error messages when the API call fails (e.g., network issues).
+
+2.Form Validation: Highlights invalid fields and provides clear error messages.
+
+# Challenges 
+## Challenges
+1.Handling mock API limitations.
+
+2.Designing a responsive UI to handle various screen sizes.
+
+3.Implementing robust form validation for better user experience.
+
+# Output Screenshots
+
+## Home Page (User List)
