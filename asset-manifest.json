@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ajackus-Dashboard/static/css/main.de1f5ab3.css",
+    "main.js": "/Ajackus-Dashboard/static/js/main.fa584013.js",
+    "index.html": "/Ajackus-Dashboard/index.html",
+    "main.de1f5ab3.css.map": "/Ajackus-Dashboard/static/css/main.de1f5ab3.css.map",
+    "main.fa584013.js.map": "/Ajackus-Dashboard/static/js/main.fa584013.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de1f5ab3.css",
+    "static/js/main.fa584013.js"
+  ]
+}
